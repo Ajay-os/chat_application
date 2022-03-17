@@ -1,0 +1,10 @@
+{
+  "name": "chat-app",
+  "description": "online chat app",
+  "repository": "https://github.com/Ajay-o-s/chat-app",
+  "logo": "https://github.com/Ajay-o-s.png",
+  "keywords": ["chat"],
+  "website":   "https://ajay-chat.herokuapp.com/",
+  "success_url": "https://ajay-chat.herokuapp.com/",
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}
