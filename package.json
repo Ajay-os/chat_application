@@ -20,7 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "postinstall": "patch-package",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeplay": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
